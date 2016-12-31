@@ -1,0 +1,75 @@
+Test cases
+----------
+
+1.
+	./pointersorter 
+
+	Too few arguments. Correct usage is:
+	
+	./pointersorter "some string"
+	
+2.
+	./pointersorter Hello world
+	
+	Too many arguments. Correct usage is:
+	
+	./pointersorter "some string"
+	
+3. 
+	./pointersorter ""
+	
+	
+4.
+	./pointersorter "Hello world"
+	Hello
+	world
+	
+5.
+	./pointersorter "I can resist everything except temptation"
+	I 
+	can
+	everything
+	except
+	resist
+	temptation
+	
+6.	./pointersorter "324I.,.,.]]]can94/';resist    everything#@*&except  2  .  32  temptation ()()*"
+	I 
+	can 
+	everything
+	except
+	resist
+	temptation
+	
+7. 	
+	./pointersorter "A a B b C c D d E e"
+	
+	A
+	B 
+	C
+	D
+	E
+	a
+	b
+	c
+	d
+	e
+	
+8.
+	./pointersorter "U C? I M K. R U K?Y? O C a J. I P N R T."
+	
+9.
+	./pointersorter "12334567890/?.>,<;:}{[]\|+=-_()*&^\%$#@\! 	"
+	
+	
+10.
+	./pointersorter "I hope you have a nice day\!"
+	I 
+	a
+	day
+	have
+	hope
+	nice
+	you
+	
+
